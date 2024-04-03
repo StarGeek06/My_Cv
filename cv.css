@@ -1,0 +1,946 @@
+@font-face 
+{
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.ttf');
+}
+
+body
+{
+    font-family: "Poppins";
+    background-color: rgb(255, 216, 250);
+}
+
+.intro
+{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.but
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    top: -190px;
+}
+
+button
+{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(233, 113, 217);
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+
+.container
+{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+.identifiants
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+.cvborder
+{
+    height: 100vh;
+    width: 820px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.picture
+{
+    height: 200px;
+    width: 200px;
+    background-image: url('Me2.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 70px;
+}
+
+.names
+{
+    margin-top: 40px;
+
+}
+
+.profession
+{
+    font-weight: bold;
+}
+
+.profession img 
+{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: -8px;
+}
+
+.importants
+{
+    display: grid;
+    margin-top: 200px;
+}
+
+.point1
+{
+   display: grid;
+   grid-template-rows: repeat(4,1fr);
+}
+
+.point2
+{
+   display: grid;
+   grid-template-rows: repeat(3,1fr);
+}
+
+
+.skills
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 50px;
+    text-align: center;
+}
+
+h2
+{
+    margin: 15px 0 0 100px;
+}
+
+h2:hover
+{
+    animation: slideslowly 5s ease-in;
+}
+
+@keyframes slideslowly
+{
+   0%
+   {
+      
+      width: 10px;
+      border- : solid 1px black;
+   }  
+   
+   50%
+   {
+      
+      width: 20px;
+      border-bottom: solid 1px black;
+   }  
+
+   100%
+   {
+      
+      width: 30px;
+      border-bottom: solid 1px black ;
+   }  
+}
+
+.progress-bar
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.contain
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.progress-barh
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containh
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.progress-barj
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containj
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.progress-barpy
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containpy
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.progress-barD
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containD
+{
+    height: 0.4rem;
+    background-color: black;
+    width: 55%;
+    border-radius: 20px;
+}
+
+.progress-barR
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containR
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.progress-barc
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containc
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 50%;
+    border-radius: 20px;
+}
+
+
+.progress-barg
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containg
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 78%;
+    border-radius: 20px;
+}
+
+
+
+.progress-barapi
+{
+    height: 0.4rem;
+    width: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.containapi 
+{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    width: 45%;
+    border-radius: 20px;
+}
+
+
+
+.java
+{
+    margin: 10px 0 0 40px;
+}
+
+.c
+{
+    margin: 10px 0 0 40px;
+}
+
+.django
+{
+    margin: 10px 0 0 40px;
+}
+
+.react
+{
+    margin: 5px 0 0 40px;
+}
+
+.python
+{
+    margin:  10px 0 0 40px;
+}
+
+.gimp
+{
+    margin: 10px 0 0 40px;;
+}
+
+.webh
+{
+    margin: 10px 0 0 40px;
+}
+
+.webj
+{
+    margin: 10px 0 0 40px;
+}
+
+.api 
+{
+    margin: 10px 0 0 40px;
+}
+
+.point2 .experiences li
+{
+    list-style: none;
+    margin: 10px 0 0 0;
+    
+}
+
+.point2 .experiences li img 
+{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    bottom: -5px;
+    margin-right: 8px;
+    
+    
+}
+
+.point2 .formations li 
+{
+    list-style: none;
+    margin: 10px 0 0 0;
+    
+}
+
+.point2
+{
+    background-color: white;
+    margin-top: 30px;
+    height: 950px;
+    width: 495px;
+    border-radius: 0 50px 50px 0;
+}
+.point1
+{
+    background-color: rgb(233, 113, 217);
+    border-radius: 0 50px 0 50px;
+    margin-top: 30px;
+    width: 325px;
+    height: 950px;
+}
+
+.hobbies li
+{
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+
+
+.identifiants::after
+{
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    height: 5px;
+    width: 45%;
+    top: 330px;
+    background-color: black;
+}
+
+.picture::after
+{
+    content: '';
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 300px;
+    background-image: url('lotus.png');
+    background-size: cover;
+}
+
+.names::after
+{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    top: 322px;
+    right: 350px;
+    
+}
+
+
+.summary
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+
+    top: 340px;
+    right: 0px;
+    margin-top: 20px;
+    
+}
+
+.summary p 
+{
+    height: 200px;
+    width: 400px;
+}
+
+.contact li
+{
+    list-style: none;
+}
+
+.contact li img 
+{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: -10px;
+}
+
+.hobbies li img
+{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: -10px;
+}
+
+.contact li a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.contact li a:hover 
+{
+    text-decoration: underline;
+}
+
+@media screen and ((min-width:300px) and (max-width:349px)) 
+{
+
+    .cvborder .contact .mail
+    {
+       display: none;
+    }
+    .cvborder
+    {
+        
+        height: 100vh;
+        width: 300px;
+        
+    }
+    .point1
+    {
+        position: relative;
+        height: 1300px;
+        width: 300px;
+        top: -90px;
+    }
+
+    .point2
+    {
+        position: relative;
+        height: 1000px;
+        width: 300px;
+        z-index: 2;
+        top: -170px;
+
+    }
+
+    .picture 
+    {
+        margin-left: 50px
+    }
+    .importants
+    {
+        grid-template-rows: repeat(2,1fr)
+    }
+
+    .summary p 
+    {
+      height: 190px;
+      width: 280px;
+      margin-top: 150px;
+      font-size: .8rem;
+    }
+
+    .identifiants
+    {
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        margin-left: 50px;
+    }
+}
+
+@media screen and ((min-width:350px) and (max-width:457px)) 
+{
+
+    .cvborder .contact .mail
+    {
+       display: none;
+    }
+    .cvborder
+    {
+        
+        height: 100vh;
+        width: 350px;
+        
+    }
+    .point1
+    {
+        position: relative;
+        height: 1300px;
+        width: 350px;
+        top: -90px;
+    }
+
+    .point2
+    {
+        position: relative;
+        height: 1000px;
+        width: 350px;
+        z-index: 2;
+        top: -170px;
+
+    }
+
+    .picture 
+    {
+        margin-left: 50px
+    }
+    .importants
+    {
+        grid-template-rows: repeat(2,1fr)
+    }
+
+    .summary p 
+    {
+      height: 190px;
+      width: 330px;
+      margin-top: 150px;
+    }
+
+    .identifiants
+    {
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+@media screen and ((min-width:458px) and (max-width:512px)) 
+{
+
+    .cvborder .contact .mail
+    {
+       display: none;
+    }
+    .cvborder
+    {
+        height: 100vh;
+        width: 450px;
+        
+    }
+    .point1
+    {
+        height: 1300px;
+        width: 450px;
+        
+    }
+
+    .point2
+    {
+        position: relative;
+        height: 1000px;
+        width: 450px;
+        z-index: 2;
+        top: -100px;
+
+    }
+
+    .importants
+    {
+        grid-template-rows: repeat(2,1fr)
+    }
+
+}
+
+
+@media screen and ((min-width:513px) and (max-width:584px)) 
+{
+    .cvborder .contact .mail
+    {
+       display: none;
+    }
+    .cvborder
+    {
+        height: 100vh;
+        width: 500px;
+        
+    }
+    .point1
+    {
+        height: 1340px;
+        width: 500px;
+    }
+
+    .point2
+    {
+        position: relative;
+        height: 1340px;
+        width: 500px;
+        top: -100px;
+    }
+
+    .progress-bar
+    {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    }
+
+
+   .progress-barh
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barj
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barpy
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barD
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barR
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barc
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barg
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barn
+   {
+    height: 0.4rem;
+    width: 120px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+
+    
+   }
+
+   h2 
+   {
+     margin-left: 20px;
+   }
+
+   .importants
+    {
+        grid-template-rows: repeat(2,1fr)
+    }
+}
+
+@media screen and ((min-width:585px) and (max-width:652px)) 
+{
+    .cvborder .contact .mail
+    {
+       display: none;
+    }
+    .cvborder
+    {
+        height: 100vh;
+        width: 580px;
+        
+    }
+    .point1
+    {
+        height: 1200px;
+        width: 580px;
+    }
+    .point2
+    {
+        position: relative;
+        height: 1200px;
+        width: 580px;
+        top: -100px;
+    }
+
+    
+    .progress-bar
+    {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    }
+
+
+   .progress-barh
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barj
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barpy
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barD
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barR
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barc
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+   .progress-barg
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+   }
+
+
+
+   .progress-barn
+   {
+    height: 0.4rem;
+    width: 150px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+
+    
+   }
+
+   .importants
+    {
+        grid-template-rows: repeat(2,1fr)
+    }
+
+}
+
+@media screen and ((min-width:653px) and (max-width:709px)) 
+{
+    .cvborder
+    {
+        height: 100vh;
+        width: 635px;
+        
+    }
+    .point1
+    {
+        height: 1155px;
+        width: 280px;
+    }
+    .point2
+    {
+        height: 1155px;
+        width: 355px;
+    }
+    .importants
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and ((min-width:710px) and (max-width:2000px)) 
+{
+    .cvborder
+    {
+        height: 100vh;
+        width: 700px;
+        
+    }
+    .point1
+    {
+        height: 1100px;
+        width: 300px;
+    }
+    .point2
+    {
+        height: 1100px;
+        width: 400px;
+    }
+    .importants
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
